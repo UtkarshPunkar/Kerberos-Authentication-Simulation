@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service Server</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <h1>📡 Service Server</h1>
+        <a href="/" class="logout-btn">Logout</a>
+    </div>
+
+    <h2>Welcome, {{ username }} 👋</h2>
+    <p>Here are your accessible resources:</p>
+
+    <div class="file-container">
+        {% for item in data %}
+            <div class="file-card">
+                <div class="file-icon">
+                    {% if ".txt" in item %}
+                        📄
+                    {% elif ".csv" in item %}
+                        📊
+                    {% elif "Message" in item %}
+                        📧
+                    {% elif "SecretKey" in item %}
+                        🔐
+                    {% else %}
+                        📁
+                    {% endif %}
+                </div>
+                <div class="file-name">{{ item }}</div>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

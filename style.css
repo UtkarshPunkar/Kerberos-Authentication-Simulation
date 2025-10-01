@@ -1,0 +1,138 @@
+/* General body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding: 30px;
+    min-height: 100vh;
+}
+
+/* Center container for login and workflow */
+.center-container {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 15px;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0,255,200,0.3);
+}
+
+/* Headings */
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 10px #00ffe0;
+}
+h2 {
+    color: #00ffe0;
+}
+
+/* Form Inputs */
+input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    width: 200px;
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+button:hover {
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    box-shadow: 0 0 15px #00e6ff;
+}
+
+/* Ordered / Unordered lists */
+ol, ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.1em;
+    background: rgba(255,255,255,0.1);
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+/* Loading Screen */
+.loading-screen {
+    margin-top: 30px;
+}
+.loader {
+    margin: 20px auto;
+    border: 6px solid rgba(255, 255, 255, 0.2);
+    border-top: 6px solid #00ffe0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite, glow 1.5s ease-in-out infinite alternate;
+}
+@keyframes spin { 100% { transform: rotate(360deg); } }
+@keyframes glow { from { box-shadow: 0 0 10px #00ffe0; } to { box-shadow: 0 0 25px #00ffe0; } }
+
+/* Top bar for service page */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.logout-btn {
+    background: #ff4d4d;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.logout-btn:hover {
+    background: #ff1a1a;
+    box-shadow: 0 0 15px #ff4d4d;
+}
+
+/* File container grid */
+.file-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* File card design */
+.file-card {
+    background: rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,255,200,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.file-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0,255,200,0.5);
+}
+.file-icon {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    animation: bounce 1s infinite alternate;
+}
+@keyframes bounce { from { transform: translateY(0); } to { transform: translateY(-10px); } }
+.file-name { font-size: 1em; word-wrap: break-word; }
