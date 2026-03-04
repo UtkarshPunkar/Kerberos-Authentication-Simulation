@@ -10,10 +10,10 @@ It demonstrates how authentication happens with the Authentication Server (AS), 
 ### 🪜 Step-by-Step Workflow Display  
 Each step of Kerberos, including TGT, Service Ticket, and Service Access, is clearly displayed for the user.
 
-### Loading Screen & Countdown  
+### 🔃 Loading Screen & Countdown  
 A visual loading screen simulates a secure connection with a 10-second countdown before accessing the service.
 
-### Service Server Dashboard
+### 🤖 Service Server Dashboard
 
 Randomly generated "accessible files" with icons and file cards  
 Responsive grid layout  
