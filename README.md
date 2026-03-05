@@ -32,7 +32,7 @@ utkarsh     test123
 
 These credentials are for demo purposes only.
 
-### Installation & Setup
+### 📐 Installation & Setup
 
 Clone the repository or download the files.
 
@@ -47,7 +47,7 @@ http://127.0.0.1:5000
 
 Login using the demo credentials to see the simulation.
 
-### How It Works
+### ⚒️ How It Works
 
 The client logs in, and the username and password are checked in the simulation.  
 The Authentication Server (AS) issues a TGT (Ticket Granting Ticket).  
@@ -56,7 +56,7 @@ The Service Server verifies the service ticket and grants access.
 The loading screen shows an animation of a secure connection.  
 The Service Dashboard displays random files the user can access.
 
-### Notes
+### 📝Notes
 
 This is a simulation/demo.  
 No real encryption or network communication is involved.  
@@ -66,6 +66,6 @@ You can extend this project by adding:
 - Animated arrows to visualize AS to TGS to Service  
 - A real database for user accounts  
 
-### Author
+### 🙎‍♂️ Author
 Utkarsh Punkar  
  
