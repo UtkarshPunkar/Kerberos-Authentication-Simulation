@@ -24,7 +24,7 @@ Glowing effects and animations
 Responsive and visually appealing interface  
 Futuristic color theme for a professional look  
 
-### Demo Credentials  
+### 🪧 Demo Credentials  
 Username    Password  
 alice       password123  
 bob         mypassword  
