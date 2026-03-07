@@ -56,7 +56,7 @@ The Service Server verifies the service ticket and grants access.
 The loading screen shows an animation of a secure connection.  
 The Service Dashboard displays random files the user can access.
 
-### 📝Notes
+### 📝 Notes
 
 This is a simulation/demo.  
 No real encryption or network communication is involved.  
