@@ -1,13 +1,13 @@
-### 🪪 Kerberos Authentication Workflow Simulation: 
+### 🪪 Kerberos Authentication Workflow Simulation.
 
 This is a web-based simulation of the Kerberos authentication protocol. It is built with Python Flask, HTML, CSS, and JavaScript. The project shows how Kerberos works in a distributed system, covering client authentication to service access.
 
-### 🧩 Features
+### 🧩 Features:
 
 User Authentication Simulation  
 It demonstrates how authentication happens with the Authentication Server (AS), Ticket Granting Server (TGS), and access to the Service Server.
 
-### 🪜 Step-by-Step Workflow Display  
+### 🪜 Step-by-Step Workflow Display 
 Each step of Kerberos, including TGT, Service Ticket, and Service Access, is clearly displayed for the user.
 
 ### 🔃 Loading Screen & Countdown  
