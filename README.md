@@ -69,5 +69,5 @@ You can extend this project by adding:
 ### 🙎‍♂️ Author
 Utkarsh Punkar  
 
-Thanks You
+Thanks for reading
  
